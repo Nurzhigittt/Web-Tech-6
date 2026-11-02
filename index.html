@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="profile">
+        <h1>Welcome to My Portfolio</h1>
+        <h2>Duiset Nurzhigit</h2>
+        <p id="headline">My headline</p>
+        <p class="intro">
+            I am a Computer Science student at AITU.
+            I am learning frontend development.
+        </p>
+    </section>
+
+    <button id="lightTheme">Light Theme</button>
+    <button id="darkTheme">Dark Theme</button>
+
+    <section id="about">
+    <h2>About Me</h2>
+
+    <p>I study Computer Science at Astana IT University.</p>
+
+    <div id="aboutDetails">
+        <p>Currently learning jQuery!</p>
+
+        <ul>
+            <li>I enjoy programming.</li>
+            <li>I like playing guitar.</li>
+            <li>My goal is to become a frontend developer.</li>
+        </ul>
+    </div>
+
+    <button id="hideDetails">Hide</button>
+    <button id="showDetails">Show</button>
+    <button id="toggleDetails">Toggle</button>
+</section>
+
+<section id="gallery">
+    <h2>My Gallery</h2>
+
+    <div id="galleryImages">
+        <img src="image1.jpeg" alt="My first photo" width="200">
+        <img src="image2.jpeg" alt="My second photo" width="200">
+    </div>
+
+    <button id="fadeInImages">Fade In</button>
+    <button id="fadeOutImages">Fade Out</button>
+    <button id="fadeToggleImages">Fade Toggle</button>
+</section>
+
+<section id="favorites">
+    <h2>My Favorites</h2>
+
+    <h3 id="musicHeading">My Favorite Music</h3>
+    <div id="musicPanel" class="panel">
+        <p>I enjoy listening to music and playing guitar.</p>
+    </div>
+
+    <h3 id="movieHeading">My Favorite Movie</h3>
+    <div id="moviePanel" class="panel">
+        <p>My favorite movie is Interstellar.</p>
+    </div>
+
+    <h3 id="subjectHeading">My Favorite Subject</h3>
+    <div id="subjectPanel" class="panel">
+        <p>My favorite subject is Web Technologies.</p>
+    </div>
+
+    <button id="openPanels">Open All</button>
+    <button id="closePanels">Close All</button>
+</section>
+
+<section id="skills">
+    <h2>My Technical Skills</h2>
+
+    <ul id="skillsList">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+    </ul>
+
+    <label for="newSkill">New skill:</label>
+    <input type="text" id="newSkill" placeholder="Enter a skill">
+
+    <button id="addSkill">Add Skill</button>
+    <button id="prependSkill">Prepend Skill</button>
+    <button id="removeSkill">Remove Skill</button>
+
+    <h3>My Skill Levels</h3>
+
+<p>HTML</p>
+<div class="skill-track">
+    <div id="htmlBar" class="skill-bar"></div>
+</div>
+
+<p>CSS</p>
+<div class="skill-track">
+    <div id="cssBar" class="skill-bar"></div>
+</div>
+
+<p>JavaScript</p>
+<div class="skill-track">
+    <div id="jsBar" class="skill-bar"></div>
+</div>
+
+<button id="animateSkills">Animate My Skills</button>
+</section>
+
+<section id="social">
+    <h2>My Links</h2>
+
+    <a id="socialLink" href="https://github.com/Nurzhigittt">
+        My GitHub
+    </a>
+
+    <button id="changeLink">Change Link</button>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+
+    <form>
+        <div>
+            <label for="contactName">Name:</label>
+            <input type="text" id="contactName">
+        </div>
+
+        <div>
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail">
+        </div>
+    </form>
+
+    <p>Name: <span id="nameOutput"></span></p>
+    <p>Email: <span id="emailOutput"></span></p>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
